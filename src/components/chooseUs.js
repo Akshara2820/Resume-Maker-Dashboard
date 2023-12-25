@@ -7,7 +7,7 @@ function ChooseUs() {
     return (
         <div>
             <div style={{ marginTop: '-180px' }}>
-                <img src='../images/heroResume.png' alt='loading...' style={{ marginLeft: '360px' }} />
+                <img src='../images/heroResume.png' alt='loading...' style={{ marginLeft: '160px' }} />
             </div>
 
             <div style={{ fontSize: '38px', fontWeight: '700', marginLeft: '150px', marginTop: '80px' }}>Why choose AI resume maker?</div>

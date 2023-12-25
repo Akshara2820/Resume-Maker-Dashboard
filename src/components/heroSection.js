@@ -7,7 +7,7 @@ function HeroSection() {
         <div className='hero-contanier'>
 
 
-            <div style={{ position: 'absolute', top: '0', left: '140px', }}>
+            <div style={{ position: 'absolute', top: '100px', left: '180px', }}>
                 <img src='../images/hexagon.png' alt='loading' />
             </div>
 
