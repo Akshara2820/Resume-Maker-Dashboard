@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+:root {
+  --primaryColor: #7757F4
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Container {
+  max-width: 2000px;
+  /* max-width: 1440px; */
+  margin: auto;
+  /* background-color: aqua; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Header Css */
+.rectangleShape {
+  position: relative;
+  width: 32.47px;
+  height: 38.93px;
+  border-radius: 3px;
+  background-color: var(--primaryColor);
+  opacity: 0.8;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.rectangleShape2 {
+  position: absolute;
+  width: 29.93px;
+  height: 36.28px;
+  top: 2px;
+  left: 12px;
+  border-radius: 3px;
+  transform: rotate(14.99deg);
+  opacity: 0.5;
+  background-color: #EBE6FD;
+  z-index: 1;
+}
+
+
+.btnSignIn {
+  /* width: 92px; */
+  height: 44px;
+  top: 13px;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid var(--primaryColor);
+  font-size: 16px;
+  color: var(--primaryColor);
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.btnCreate {
+  width: 180px;
+  height: 44px;
+  top: 13px;
+  border-radius: 5px;
+  background-color: var(--primaryColor);
+  border: 2px solid var(--primaryColor);
+  font-size: 16px;
   color: white;
+  font-weight: 500;
+  line-height: 24px;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+/* Hero Section */
+.hero-contanier {
+  height: 600px;
+
+  background: linear-gradient(to right,
+      #faeeef 00%,
+      #faeeef 10%,
+      #d0eef8 15%,
+      #d0eef8 35%,
+      #fde6e7 60%,
+      #bae4f3 100%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heroWhiteTemplate {
+  background-color: white;
+  height: 45px;
+  border-radius: 20px;
+}
+
+.circle {
+  background-color: var(--primaryColor);
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+
+/* ExploreLibrary */
+
+.exploreLibrary {
+  height: 620px;
+  background-color: #fafafa;
+  
+}
+/* Footer */
+.vertical-line {
+  border-left: 2px solid #d4d4d4; 
+  height: 100px; 
+  width: 40px;
+}
+.vertical-line2 {
+  border-left: 2px solid #d4d4d4; 
+  width: 40px;
+}
+.horizontal-line {
+  border-bottom: 2px solid #d4d4d4; 
+  width: 90%; 
+  margin: 20px auto;
 }
