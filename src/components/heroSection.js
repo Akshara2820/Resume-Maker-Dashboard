@@ -17,7 +17,7 @@ function HeroSection() {
                     <div className='heroWhiteTemplate' style={{ width: '225px', marginTop: '50px' }}>
                         <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
                             <div className='circle'>
-                                <FaWandMagicSparkles style={{ color: 'white', marginLeft: '9px', marginTop: '8px' }} />
+                                <FaWandMagicSparkles style={{ color: 'white', marginLeft: '0px', marginTop: '10px' }} />
                             </div>
                             <div style={{ fontSize: '17px', fontWeight: '500' }}>Templates Library</div>
                         </div>
@@ -26,7 +26,7 @@ function HeroSection() {
                     <div className='heroWhiteTemplate' style={{ width: '225px', marginTop: '50px' }}>
                         <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
                             <div className='circle'>
-                                <FaWandMagicSparkles style={{ color: 'white', marginLeft: '9px', marginTop: '8px' }} />
+                                <FaWandMagicSparkles style={{ color: 'white', marginLeft: '0px', marginTop: '10px' }} />
                             </div>
                             <div style={{ fontSize: '17px', fontWeight: '500' }}>Real-time preview</div>
                         </div>
@@ -37,7 +37,7 @@ function HeroSection() {
                     <div className='heroWhiteTemplate' style={{ width: '255px', marginTop: '50px' }}>
                         <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
                             <div className='circle'>
-                                <FaWandMagicSparkles style={{ color: 'white', marginLeft: '9px', marginTop: '8px' }} />
+                                <FaWandMagicSparkles style={{ color: 'white', marginLeft: '0px', marginTop: '10px' }} />
                             </div>
                             <div style={{ fontSize: '17px', fontWeight: '500' }}>Keyword Optimization</div>
                         </div>
@@ -55,7 +55,7 @@ function HeroSection() {
                     <div className='heroWhiteTemplate' style={{ width: '305px', marginTop: '50px' }}>
                         <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
                             <div className='circle'>
-                                <FaWandMagicSparkles style={{ color: 'white', marginLeft: '9px', marginTop: '8px' }} />
+                                <FaWandMagicSparkles style={{ color: 'white', marginLeft: '0px', marginTop: '10px' }} />
                             </div>
                             <div style={{ fontSize: '17px', fontWeight: '500' }}>Dynamic Content Generation</div>
                         </div>
